@@ -1,0 +1,92 @@
+html {
+    font-size: 100%;
+    background-color: #fff;
+    color: #000
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #774d58;
+    color: #fff;
+    font-size: .5rem;
+    text-transform: uppercase;
+    height: 100px;
+}
+
+header img {
+    height: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav ul li{
+    background-color: #424040;
+    color:aliceblue
+    border: 1px solid #fff
+}
+
+nav ul li a {
+    background-color: #774d58;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #774d58;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li:nth-child(2) {
+    background-color: #424040;
+    color: #000;
+    border: 1px solid #f3dfa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li:nth-child(2) a {
+    background-color: #424040;
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li:nth-child(2) a:hover {
+    background-color: #424040;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper {
+    background-color: #7ebdc2;
+}
+
+figcaption{
+    text-align: center;
+    font-size: .8rem;
+}
+
+figcaption a {
+    background-color: #7edbc2;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#secondary {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color:#774d58;
+    color: white;
+}
