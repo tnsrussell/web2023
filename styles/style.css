@@ -41,21 +41,21 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #e130c1;
-    color: #fff
+    color: #000
     font-weight: bold;
 }
 
 nav ul li:nth-child(2) {
     background-color: #e130c1;
     color: #000;
-    border: 1px solid #18b457;
+    border: 1px solid #19783f;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a {
     background-color: #e130c1;
-    color: #18b457;
+    color: #19783f19783f;
     text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ figcaption{
 }
 
 figcaption a {
-    background-color: #2be1b0;
+    background-color: #7ebdc2;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
