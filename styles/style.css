@@ -11,8 +11,8 @@ body{
 }
 
 header {
-    background-color: #b9202a;
-    color: white;
+    background-color: #5BA300;
+    color: black;
     font-size: .5rem;
     text-transform: uppercase;
     height: 100px;
@@ -26,47 +26,47 @@ nav ul {
     list-style-type: none;
 }
 nav ul li{
-    background-color: #b9202a;
+    background-color: #0073E6;
     color: white;
-    border: 1px solid #0C2231;
+    border: 1px solid #0073E6;
 }
 
 nav ul li a {
-    background-color: #b9202a;
-    color: #d7e23f;
+    background-color: #B51963;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #b9202a;
-    color: #0C2231;
+    background-color: #B51963;
+    color: white;
     font-weight: bold;
 }
 
 nav ul li:nth-child(2) {
-    background-color: #b9202a;
+    background-color: #E6308A;
     color: black;
-    border: 1px solid #b9202a;
+    border: 1px solid #E6308A;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a {
-    background-color: #b9202a;
+    background-color: #89CE00;
     color: black;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a:hover {
-    background-color:#b9202a;
+    background-color:#0073E6;
     color: white;
     text-decoration: none;
 }
 
 .wrapper {
-    background-color: #7ebdc2;
+    background-color: #89CE00;
 }
 
 figcaption{
@@ -75,18 +75,18 @@ figcaption{
 }
 
 figcaption a {
-    background-color: #7ebdc2;
+    background-color: #89CE00;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 #secondary {
-    background-color: #e5eff7;
+    background-color: white;
     color: black;
 }
 
 footer {
-    background-color:#b9202a;
-    color: #0A3055;
+    background-color:#B51963;
+    color: white;
 }
