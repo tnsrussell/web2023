@@ -1,6 +1,6 @@
 html {
     font-size: 100%;
-    background-color: #00ffff;
+    background-color: #e5eff7;
     color: #000;
 }
 
@@ -12,14 +12,14 @@ body{
 
 header {
     background-color: #e130c1;
-    color: #00fff;
+    color: #e5eff7;
     font-size: .5rem;
     text-transform: uppercase;
     height: 100px;
 }
 
 header img {
-    height: 75%;
+    height: 50%;
 }
 
 nav ul {
@@ -33,7 +33,7 @@ nav ul li{
 
 nav ul li a {
     background-color: #e130c1;
-    color: #00ffff;
+    color: #0A3055;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
@@ -41,14 +41,14 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #e130c1;
-    color: #000;
+    color: #0A3055;
     font-weight: bold;
 }
 
 nav ul li:nth-child(2) {
     background-color: #e130c1;
-    color: #000;
-    border: 1px solid #003636;
+    color: #0A3055;
+    border: 1px solid #0A3055;
     font-weight: bold;
     text-decoration: none;
 }
@@ -88,5 +88,5 @@ figcaption a {
 
 footer {
     background-color:#e130c1;
-    color: #00ffff;
+    color: #0A3055;
 }
