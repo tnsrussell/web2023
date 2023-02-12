@@ -28,7 +28,7 @@ nav ul {
 nav ul li{
     background-color: #e130c1;
     color:aliceblue;
-    border: 1px solid #61eb8d;
+    border: 1px solid #003636;
 }
 
 nav ul li a {
@@ -48,14 +48,14 @@ nav ul li a:hover {
 nav ul li:nth-child(2) {
     background-color: #e130c1;
     color: #000;
-    border: 1px solid #19783f;
+    border: 1px solid #003636;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a {
     background-color: #e130c1;
-    color: #19783f;
+    color: #ecf0f1;
     text-decoration: none;
 }
 
