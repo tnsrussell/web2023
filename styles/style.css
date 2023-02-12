@@ -19,14 +19,14 @@ header {
 }
 
 header img {
-    height: 50%;
+    height: 75%;
 }
 
 nav ul {
     list-style-type: none;
 }
 nav ul li{
-    background-color: #424040;
+    background-color: ##774d58;
     color:aliceblue
     border: 1px solid #fff
 }
@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 nav ul li:nth-child(2) {
     background-color: #424040;
-    color: #42af7f;
+    color: #2905ca;
     border: 1px solid #f3dfa2;
     font-weight: bold;
     text-decoration: none;
