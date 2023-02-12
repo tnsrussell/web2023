@@ -1,6 +1,6 @@
 html {
     font-size: 100%;
-    background-color: #fff;
+    background-color: #00ffff;
     color: #000;
 }
 
@@ -12,7 +12,7 @@ body{
 
 header {
     background-color: #e130c1;
-    color: #fff;
+    color: #00fff;
     font-size: .5rem;
     text-transform: uppercase;
     height: 100px;
@@ -33,7 +33,7 @@ nav ul li{
 
 nav ul li a {
     background-color: #e130c1;
-    color: #ffffff;
+    color: #00ffff;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
@@ -82,11 +82,11 @@ figcaption a {
 }
 
 #secondary {
-    background-color: white;
+    background-color: #00ffff;
     color: black;
 }
 
 footer {
     background-color:#e130c1;
-    color: white;
+    color: #00ffff;
 }
