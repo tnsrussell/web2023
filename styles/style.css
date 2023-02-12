@@ -1,6 +1,6 @@
 html {
     font-size: 100%;
-    background-color: #e5eff7;
+    background-color: white;
     color: #000;
 }
 
@@ -11,8 +11,8 @@ body{
 }
 
 header {
-    background-color: #20a1b9;
-    color: #e5eff7;
+    background-color: #b9202a;
+    color: white;
     font-size: .5rem;
     text-transform: uppercase;
     height: 100px;
@@ -26,42 +26,42 @@ nav ul {
     list-style-type: none;
 }
 nav ul li{
-    background-color: #20a1b9;
-    color: #e5eff7;
+    background-color: #b9202a;
+    color: white;
     border: 1px solid #0C2231;
 }
 
 nav ul li a {
-    background-color: #20a1b9;
-    color: #0C2231;
+    background-color: #b9202a;
+    color: #d7e23f;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #20a1b9;
+    background-color: #b9202a;
     color: #0C2231;
     font-weight: bold;
 }
 
 nav ul li:nth-child(2) {
-    background-color: #20a1b9;
-    color: #e5eff7;
-    border: 1px solid #0C2231;
+    background-color: #b9202a;
+    color: black;
+    border: 1px solid #b9202a;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a {
-    background-color: #20a1b9;
-    color: #e5eff7;
+    background-color: #b9202a;
+    color: black;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a:hover {
-    background-color:#20a1b9;
-    color: #0C2231;
+    background-color:#b9202a;
+    color: white;
     text-decoration: none;
 }
 
@@ -87,6 +87,6 @@ figcaption a {
 }
 
 footer {
-    background-color:#20a1b9;
+    background-color:#b9202a;
     color: #0A3055;
 }
