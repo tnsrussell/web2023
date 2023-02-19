@@ -11,62 +11,75 @@ body{
 }
 
 header {
-    background-color: #5BA300;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax (200px, 2fr));
+    justify-items: end
+    height: 3.0rem;
+    background-color: #00B4C5;
     color: black;
     font-size: .5rem;
     text-transform: uppercase;
-    height: 100px;
 }
 
 header img {
-    height: 50%;
+    height: 80%;
+}
+
+nav {
+padding: 1rem 0 1rem 0;    
 }
 
 nav ul {
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax (200px, 1fr));
+    justify-items: center;
     list-style-type: none;
 }
 nav ul li{
-    background-color: #0073E6;
-    color: white;
-    border: 1px solid #0073E6;
+    background-color:   #EBE094;
+    color: black;
+    border: 1px solid #EBE094;
+    padding: 1rem 4rem 1rem 4rem;
+    font-weight: bold;
 }
 
 nav ul li a {
-    background-color: #B51963;
-    color: white;
+    background-color: #00B4C5;
+    color: black;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #B51963;
+    background-color: #00B4C5;
     color: white;
     font-weight: bold;
 }
 
 nav ul li:nth-child(2) {
-    background-color: #E6308A;
+    background-color: #CF4C57;
     color: black;
-    border: 1px solid #E6308A;
+    border: 1px solid #CF4C57;
+    padding: 1rem 4rem 1rem 4rem;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a {
-    background-color: #89CE00;
+    background-color: #00B4C5;
     color: black;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a:hover {
-    background-color:#0073E6;
-    color: white;
+    background-color:#EBE094;
+    color: black;
     text-decoration: none;
 }
 
 .wrapper {
-    background-color: #89CE00;
+    background-color: #00B4C5;
 }
 
 figcaption{
@@ -75,7 +88,7 @@ figcaption{
 }
 
 figcaption a {
-    background-color: #89CE00;
+    background-color: #00B4C5;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
@@ -87,6 +100,6 @@ figcaption a {
 }
 
 footer {
-    background-color:#B51963;
-    color: white;
+    background-color: #CF4C57;
+    color: black;
 }
