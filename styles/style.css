@@ -14,10 +14,10 @@ header {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
     justify-items: end;
-    height: 3.0rem;
+    height: 10.0rem;
     background-color: #00B4C5;
     color: black;
-    font-size: .5rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
@@ -98,7 +98,7 @@ figure {
 
 figure img {
     max-width: 75%;
-    border-radius: 50px;
+    border: 50px;
 }
 
 figcaption{
