@@ -14,19 +14,32 @@ header {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
     justify-items: end;
-    height: 10.0rem;
+    height: 75px;   
     background-color: #00B4C5;
     color: black;
-    font-size: 2rem;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 
+header h1 {
+    height: 100%;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+header a {
+    height: 70%;
+    margin-left: 50px;
+}
+
 header img {
-    height: 30%;
+    height: 100%;
+    margin-top: 10px;
 }
 
 nav {
-padding: 1rem 0 1rem 0;    
+padding: .5rem 0 .5rem 0;    
 }
 
 nav ul {
@@ -38,8 +51,8 @@ nav ul {
 nav ul li{
     background-color:   #EBE094;
     color: black;
-    border: 1px solid #EBE094;
-    padding: 1rem 4rem 1rem 4rem;
+    border: 2px solid #EBE094;
+    padding: .5rem 2.5rem .5rem 2.5rem;
     font-weight: bold;
 }
 
@@ -52,7 +65,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #00B4C5;
     color: white;
     font-weight: bold;
 }
@@ -79,6 +91,7 @@ nav ul li:nth-child(2) a:hover {
 
 .wrapper {
     background-color: #00B4C5;
+    color: black
 }
 
 #primary {
@@ -87,6 +100,12 @@ nav ul li:nth-child(2) a:hover {
     padding: 0 1rem 0 1rem;
 }
 
+#primary h2 {
+    background-color: #EBE094;
+    text-align: center;
+}
+
+
 #mainarticle {
     padding: 0 1rem 0 1rem;
 }
@@ -94,16 +113,17 @@ nav ul li:nth-child(2) a:hover {
 
 figure {
     padding: 1rem 1rem 0 1rem;
+    text-align: center;
 }
 
 figure img {
-    max-width: 75%;
-    border: 50px;
+    max-width: 100%;
+    border: 30px;
 }
 
 figcaption{
     text-align: center;
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
 
 figcaption a {
@@ -116,10 +136,11 @@ figcaption a {
 #secondary {
     background-color: white;
     color: black;
-    padding: 1rem 4rem 1rem 2rem;
+    padding: 1rem 5rem 1rem 2rem;
 }
 
 footer {
+    display: grid;
     background-color: #CF4C57;
     color: black;
     padding: 0.8rem 0 0 2rem;
