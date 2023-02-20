@@ -13,8 +13,8 @@ body{
 header {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
-    justify-items: end;
-    height: 75px;   
+    justify-items: center;
+    height: 100px;   
     background-color: #00B4C5;
     color: black;
     font-size: 1rem;
@@ -22,19 +22,19 @@ header {
 }
 
 header h1 {
-    height: 100%;
+    height: 100px;
     text-align: right;
     margin-right: 50px;
     margin-top: 50px;
 }
 
 header a {
-    height: 70%;
+    height: 100px;
     margin-left: 50px;
 }
 
 header img {
-    height: 100%;
+    height: 100px;
     margin-top: 10px;
 }
 
@@ -117,7 +117,7 @@ figure {
 }
 
 figure img {
-    max-width: 100%;
+    max-width: 400px;
     border: 30px;
 }
 
