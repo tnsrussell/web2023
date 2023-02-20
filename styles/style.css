@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-    height: 100px;
+    height: 200px;
     text-align: right;
     margin-right: 50px;
     margin-top: 50px;
@@ -34,7 +34,7 @@ header a {
 }
 
 header img {
-    height: 100px;
+    height: 300px;
     margin-top: 10px;
 }
 
@@ -101,7 +101,7 @@ nav ul li:nth-child(2) a:hover {
 }
 
 #primary h2 {
-    background-color: #EBE094;
+    background-color: #00B4C5;
     text-align: center;
 }
 
@@ -112,12 +112,12 @@ nav ul li:nth-child(2) a:hover {
 
 
 figure {
-    padding: 1rem 1rem 0 1rem;
+    padding: 2rem 1rem 0 1rem;
     text-align: center;
 }
 
 figure img {
-    max-width: 400px;
+    max-width: 300px;
     border: 30px;
 }
 
