@@ -50,14 +50,14 @@ nav ul {
 }
 
 nav ul li{
+    background-color: #07737F;
+    color: white;
     border: 1px solid #07737F;
     padding: .5rem 1.0rem .5rem 1.0rem;
     font-weight: bold;
 }
 
 nav ul li a {
-    background-color: #07737F;
-    color: white;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
@@ -119,6 +119,7 @@ figure {
 figure img {
     max-width: 300px;
     border: 30px;
+    text-align: center;
 }
 
 figcaption{
