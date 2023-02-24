@@ -50,9 +50,8 @@ nav ul {
 }
 
 nav ul li{
-    background-color: #77CB5F;
-    color:#000;
-    border: 1px solid #77CB5F;
+    background-color: #CF4C57;
+    border: 1px solid #CF4C57;
     padding: .5rem 1.0rem .5rem 1.0rem;
     font-weight: bold;
 }
