@@ -12,7 +12,7 @@ body{
 
 header {
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: 200px repeat(auto-fill, 600px) 400px;
     justify-items: center;
     height: 100px;   
     background-color: #00B4C5;
@@ -22,10 +22,10 @@ header {
 }
 
 header h1 {
-    height: 200px;
+    height: 400px;
     text-align: right;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 header a {
