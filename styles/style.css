@@ -17,7 +17,7 @@ header {
     height: 300px;   
     background-color: #00B4C5;
     color: black;
-    font-size: 1rem;
+    font-size: 4rem;
     text-transform: uppercase;
 }
 
@@ -51,7 +51,7 @@ nav ul {
 }
 nav ul li{
     background-color: #CF4C57;
-    color: black;
+    color: #000;
     border: 1px solid #CF4C57;
     padding: .5rem 1.0rem .5rem 1.0rem;
     font-weight: bold;
@@ -64,7 +64,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: black;
+    background-color: #E39A9E;
+    color: #000;
     font-weight: bold;
 }
 
@@ -82,7 +83,7 @@ nav ul li:nth-child(2) a {
 }
 
 nav ul li:nth-child(2) a:hover {
-    background-color:#9F2A33;
+    background-color: #9F2A33;
     color: white;
     text-decoration: none;
 }
