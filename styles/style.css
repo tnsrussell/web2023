@@ -12,7 +12,7 @@ body{
 
 header {
     display: grid; 
-    grid-template-columns: 600px repeat(auto-fill, 200px) 400px;
+    grid-template-columns: repeat(auto-fill, minmax(200px,2fr));
     justify-items: center;
     height: 100px;   
     background-color: #00B4C5;
@@ -31,9 +31,7 @@ header h1 {
 header a {
     height: 300px;
     justify-items: right;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 header img {
@@ -47,7 +45,7 @@ padding: .5rem 0 .5rem 0;
 
 nav ul {
     display: grid;
-    grid-template-columns: 200px repeat(auto-fill,100px) 300px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 2fr));
     justify-items:end;
     list-style-type: none;
 }
@@ -72,15 +70,14 @@ nav ul li a:hover {
 
 nav ul li:nth-child(2) {
     background-color: #CF4C57;
-    color: white;
+    color: black;
     border: 1px solid #CF4C57;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a {
-    background-color: #129CA8;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
