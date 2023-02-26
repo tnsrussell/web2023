@@ -6,7 +6,7 @@
     <meta name="description" content="test site for web2023">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Tomato Soup R-e-Sipe</title>
+    <title>Tomato Soup Re-S-ipe</title>
   </head>
 
   <!-- this is a comment; it's different than how to add CSS comments -->
@@ -69,7 +69,11 @@
 
         <!-- be sure to use alt and title for images -->
         <figure id="main_fig">
-           <img src="images/tomatosouppic.png"
+           <img srcset="images/tomatosouppic.png 252w,
+                        images/tomatosouppic.png 504w"
+          sizes="(max-width: 504px) 252px,
+                  504px"
+          src="images/tomatosouppic.png"
           alt="Image of a bowl of homemade tomato soup."
           title="Image of homemade tomato soup.">
           <figcaption>
