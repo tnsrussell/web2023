@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- this is the <head> section; not to be confused with the <header> section -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="test site for web2023">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Family R-e-Sipes</title>
+  </head>
+
+  <!-- this is a comment; it's different than how to add CSS comments -->
+
+  <!-- the <body> element comes immediately after the closing </head> -->
+
+  <body>
+
+    <!-- new section for <header>, which contains <h1>, <a>, and <img> elements -->
+    <header>
+       <h1 id="title">Family Re-S-ipes</h1>
+      <a href="index.html">
+        <img src="images/Re_S_ipesLogo_recolor2.19.svg" alt="ReSipes Logo">
+      </a>
+    </header>
+
+    <!-- new section for <nav>, which contains <ul> and <li> elements -->
+    <nav>
+      <ul>
+        <li><a href="recipe1.html">recipe 1</a></li>
+        <li><a href="recipe2.html">recipe 2</a></li>
+        <li><a href="recipe3.html">recipe 3</a></li>
+      </ul>
+    </nav>
+
+    <!-- the <div> wraps around all elements below except for the <footer> element -->
+    <div class="wrapper">
+
+      <!-- this is the first of two <section> elements on this page -->
+      <section id="primary">
+
+        <!-- this is the first of two <article> elements on this page. Each
+        <article> element is in its own <section>. In practice, this might be
+        redundant; that is, you can either use an <article> or a <section>
+        element and may not need both. -->
+        <article id="main_article">
+
+        <!-- it's good practice to include a <h2> for each <section> or <article> -->
+        <h2>Our Story:</h2>
+
+        <p>Gathering around the table to share a meal together is an important time of bonding whether
+          a family is small or large like ours.  Together we bring recipes and traditions from our 
+          families that we want to share with our family, friends and you!  Re-S-ipes is a place for opening
+          our cherished recipe box and sharing our favorites so you can begin building your own and creating 
+          new family traditions. Kenneth and Nikki married over 20 years ago and since that time we have 
+          incorporated traditions that have been passed down by our families, as well as some new ones that we 
+          adopted in our home with our own children.  
+        </p>
+        
+        <h2>Our Traditions:</h2>
+
+        <p>Nikki’s family traditions include a variety of cultural influences with dishes such as Pierogis, German potato salad, enchiladas, as well as our take on southern favorites like beer cheese, pimiento cheese, and peanut butter roll candy around the holidays.  
+          
+          Kenneth’s family traditions include southern favorites like shuck beans, corn bread, fried chicken, caramel iced pound cake, overnight slaw, and a recipe for amazing chili dogs that was passed along after a Harlan diner closed many years ago.  
+          
+          One recipe that our families share in common is cabbage rolls, and each family makes them identical to the other.  Regardless of our different backgrounds, this dish is considered a comfort food by our families and we are happy to share it with you.  
+          
+          In our time together, we have discovered many new recipes that have become our own additions to traditional family recipes for our children and their future families.
+        </p>
+
+        </article>
+
+        <!-- be sure to use alt and title for images -->
+        <figure id="main_fig">
+           <img src="images/Cookbook.png"
+          alt="Image of cookbook and vegetables."
+          title="Image of cookbook and vegetables.">
+          <figcaption>
+          <a href="https://www.canva.com/design/DAFbDevFhU4/A7JTXZWxR-b4934IwelOkA/edit#">Photo by Pixabay user Bru-nO</a>
+          </figcaption>
+        </figure>
+
+      </section>
+
+      <section id="secondary">
+
+        <article id="sub_article">
+
+        <h3>Our Re-S-ipes:</h3>
+
+        <p>The R and S in Family Re-S-ipes are for our last names, Russell and Smetanko, joined together to build our own family.  Just as we have done with our traditional family recipes, we encourage you to make them your own.  Add some new seasonings or swap out ingredients to make them suitable to your own diet and preferred flavor profile.  </p>
+
+        </article>
+
+      </section>
+
+      
+
+    </div> <!-- wrapper -->
+
+       
+    <!-- the <footer> can contain more than an address, but this
+    is a useful place to include it. -->
+    <footer>
+
+      <address>
+        <p>555 Main St.<br>
+          City, State 00000<br>
+          555-123-4567<br>
+          resipes@cookourresipes.com<br>
+          @resipes</p>
+      </address>
+
+    </footer>
+
+   <!-- be sure to close the </body> and the </html> elements at the end -->
+  </body>
+</html>
