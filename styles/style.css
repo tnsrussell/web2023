@@ -91,7 +91,7 @@ nav ul li:nth-child(2) a:hover {
 .wrapper {
     background-color: #07737F;
     color: white;
-}
+ }
 
 #primary {
     display: grid;
@@ -107,7 +107,7 @@ nav ul li:nth-child(2) a:hover {
 
 
 #mainarticle {
-    padding: 0 1rem 0 1rem;
+    padding: 50px 25px 25px 50px;
 }
 
 
