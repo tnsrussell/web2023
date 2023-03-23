@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- this is the <head> section; not to be confused with the <header> section -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="test site for web2023">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Three Rivers Bean Dip Re-S-ipe</title>
+    <style>
+      caption {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 3px white;
+        padding: 5px;
+        background-color: #F6DE73;
+        color: black;
+        border-radius: 25px;
+        font-weight: bold; 
+      }
+
+      thead,tfoot {
+        background-color: #F6DE73;
+        color: black;
+        font-weight: bold;
+      }
+
+      th, td {
+        padding: 5px 10px;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .rowhover {
+        background-color: #129CA8;
+        color: black;
+      }
+
+      .basicbutton button {
+        border-radius: 5%;
+        padding: 5px 10px;
+        box-shadow: 10px 5px 5px #9F2A33;
+      }
+
+  </style>
+  </head>
+
+  <!-- this is a comment; it's different than how to add CSS comments -->
+
+  <!-- the <body> element comes immediately after the closing </head> -->
+
+  <body>
+
+    <!-- new section for <header>, which contains <h1>, <a>, and <img> elements -->
+    <header>
+       <h1 id="title">Three Rivers Bean Dip</h1>
+      <a href="recipe2.html">
+        <img src="images/Re_S_ipesLogo_recolor2.19.svg" alt="ReSipes Logo">
+      </a>
+    </header>
+
+    <!-- new section for <nav>, which contains <ul> and <li> elements, removed <nav> to have list only -->
+    <ul>
+        <li>1 lb. ground beef</li>
+        <li>1 medium onion, chopped</li>
+        <li>1 green pepper, chopped</li>
+        <li>1 can stewed tomatoes</li>
+        <li>1 can lima beans, drained</li>
+        <li>1 can pork and beans</li>
+        <li>1 can kidney beans</li>
+        <li>1 cup ketchup</li>
+        <li>1 cup brown sugar</li>
+        <li>tortilla chips</li>
+        <li>sour cream, as topping</li>
+        <li>shredded sharp cheddar cheese, as topping</li>
+    </ul>
+    
+
+    <!-- the <div> wraps around all elements below except for the <footer> element -->
+    <div class="wrapper">
+
+      <!-- this is the first of two <section> elements on this page -->
+      <section id="primary">
+
+        <!-- this is the first of two <article> elements on this page. Each
+        <article> element is in its own <section>. In practice, this might be
+        redundant; that is, you can either use an <article> or a <section>
+        element and may not need both. -->
+        <article id="main_article">
+
+        <!-- it's good practice to include a <h2> for each <section> or <article> -->
+        <h2>Instructions:</h2>
+
+        <p>Brown ground beef and drain. Combine ground beef, chopped onion, chopped green pepper, stewed tomatoes, lima beans, pork & beans, kidney beans, ketchup and brown sugar.  Pour into 9x13 baking dish and bake in 375 degree oven for 45 minutes, covered, then cook an additional 10 minutes uncovered.  Serve with tortilla chips, shredded cheese and sour cream.</p>
+        
+        <h2>About this Recipe:</h2>
+
+        <p>The Three Rivers Bean Dip is a perfect dish for game day appetizers, potlucks, or any family and friend gathering. Place it in a crockpot after baking to keep it warm, or serve it directly from the oven./p>
+
+        </article>
+
+        <!-- be sure to use alt and title for images -->
+        <figure id="main_fig">
+           <img srcset="images/peppers.png 252w,
+                        images/peppers.png 504w"
+          sizes="(max-width: 504px) 252px,
+                  504px"
+          src="images/peppers.png"
+          alt="Image of a multi-colored peppers."
+          title="Image of multi-colored peppers.">
+          <figcaption>
+          <a href="https://www.canva.com">Stock Photo by Canva</a>
+          </figcaption>
+        </figure>
+
+      </section>
+
+      <section id="secondary">
+
+        <article id="sub_article">
+
+        <h3>Our Re-S-ipe:</h3>
+
+        <p>This recipe was first shared by my husband's Aunt Marlene at a family gathering.  Everyone loved the flavors and different ways to add toppings.  Since then, it has become a staple anytime our family is having an appetizer night or potluck.
+        </article>
+
+      </section>
+
+      
+      <table>
+        <caption> Suggested Substitute Ingredients</caption>
+        <thead>
+          <tr>
+            <th colspan="3">Try these:</th>
+          </tr>
+          <tr>
+            <th>&nbsp;</th>
+            <th>1st Recommendation:</th>
+            <th>2nd Recommendation:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="rowhover">
+            <td>Cool-it-Down Toppings</td>
+            <td class="center"> Sour Cream</td>
+            <td class="center"> Shredded Cheese</td>
+          </tr>
+          <tr class="rowhover">
+            <td>Spice-it-up Toppings:</td>
+            <td class="center"> Salsa</td>
+            <td class="center"> Diced Jalapenos</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Our Favorite Toppings:</td>
+            <td class="center"> Sour Cream and Lime</td>
+            <td class="center"> Shredded Cheese</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <hr>
+
+      <h2>Recipe Feedback</h2>
+  
+      <form action="#" method="get">
+        <fieldset>
+  
+          <legend>Would you like to see more appetizer recipes? </legend>
+  
+          <input type="radio" id="Yes" name="favtech" value="Yes">
+          <label for="Yes">Yes</label><br>
+  
+          <input type="radio" id="No" name="favtech" value="No">
+          <label for="No">No</label><br>
+  
+           
+        </fieldset>
+      </form>
+
+    </div> <!-- wrapper -->
+
+       
+    <!-- the <footer> can contain more than an address, but this
+    is a useful place to include it. -->
+    <footer>
+
+      <address>
+        <p>555 Main St.<br>
+          City, State 00000<br>
+          555-123-4567<br>
+          resipes@cookourresipes.com<br>
+          @resipes</p>
+      </address>
+
+    </footer>
+
+   <!-- be sure to close the </body> and the </html> elements at the end -->
+  </body>
+</html>
