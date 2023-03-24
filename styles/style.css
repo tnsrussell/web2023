@@ -6,8 +6,8 @@ html {
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 50px;
+    padding: 50px 25px 25px 50px;
 }
 
 header {
@@ -36,6 +36,7 @@ header img {
     height: 300px;
     justify-items: right;
     margin-top: 10px;
+    margin-left: 25px;
 }
 
 nav {
