@@ -92,13 +92,11 @@ nav ul li:nth-child(2) a:hover {
 .wrapper {
     background-color: #07737F;
     color: white;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+    justify-items: center;
  }
 
-#primary {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    padding: 0 1rem 0 1rem;
-}
 
 #primary h2 {
     background-color: #129CA8;
