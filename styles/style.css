@@ -99,8 +99,9 @@ nav ul li:nth-child(2) a:hover {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
     justify-items: center;
+    padding: 0 1rem 0 1rem;
 }
- 
+
 #primary h2 {
     background-color: #129CA8;
     color: black;
