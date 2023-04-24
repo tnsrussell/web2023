@@ -96,11 +96,14 @@ nav ul li:nth-child(2) a:hover {
  }
 
 #ingredients {
-    background-color: #129CA8;
-    color: black;
-    text-align: center;
+    background-color: #07737F;
+    color: white;
 }
 
+#ingredients h2 {
+    background-color: #129CA8;
+    color: black;
+}
 
 #primary {
     display: grid; 
