@@ -96,6 +96,9 @@ nav ul li:nth-child(2) a:hover {
  }
 
 #ingredients {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+    justify-items: left;
     background-color: #07737F;
     color: white;
 }
@@ -103,6 +106,7 @@ nav ul li:nth-child(2) a:hover {
 #ingredients h2 {
     background-color: #129CA8;
     color: black;
+    text-align:center;
 }
 
 #primary {
