@@ -11,19 +11,23 @@ body{
 }
 
 header {
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(500px,2fr));
-    justify-items: left;
-    height: 250px;   
     background-color: #00B4C5;
     color: black;
     font-size: 1.5rem;
     text-transform: uppercase;
+    height: 250px;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+    justify-items: left;
+       
+    
+    
 }
 
 header h1 {
-    text-align: center;
-    margin-top: 50px;
+    height: 50px;
+    justify-items: left;
+    margin-left: 50px;
 }
 
 header a {
