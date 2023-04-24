@@ -95,6 +95,12 @@ nav ul li:nth-child(2) a:hover {
     color: white;
  }
 
+#ingredients {
+    background-color: #129CA8;
+    color: black;
+    text-align: center;
+}
+
 
 #primary {
     display: grid; 
@@ -142,6 +148,12 @@ figcaption a {
     background-color: white;
     color: black;
     padding: 1rem 5rem 1rem 2rem;
+}
+
+#secondary h2 {
+    text-align: center;
+    background-color: #E39A9E;
+    color: black;
 }
 
 caption {
