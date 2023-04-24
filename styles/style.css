@@ -165,8 +165,24 @@ caption {
     padding: 5px 10px;
   }
 
+  tbody {
+    background-color: #F6DE73;
+    color: black;
+  }
+
   .center {
     text-align: center;
+  }
+
+  .rowhover {
+    background-color: #129CA8;
+    color: black;
+  }
+
+  .basicbutton button {
+    border-radius: 5%;
+    padding: 5px 10px;
+    box-shadow: 10px 5px 5px #9F2A33;
   }
 
 footer {
