@@ -97,10 +97,11 @@ nav ul li:nth-child(2) a:hover {
 
 #ingredients {
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    justify-items: left;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 2fr)); 
+    justify-items:center;
     background-color: #07737F;
     color: white;
+    padding: 0 1rem 0 1rem;
 }
 
 #ingredients h2 {
