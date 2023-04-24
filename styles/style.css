@@ -31,16 +31,16 @@ header h1 {
 }
 
 header a {
-    height: 300px;
-    justify-items: left;
+    height: 85px;
+    text-align: right;
     margin-top: 10px;
 }
 
 header img {
-    height: 300px;
-    justify-items: right;
+    height: 80px;
+    margin-right: 80px;
     margin-top: 10px;
-    margin-left: 25px;
+    height: 50%;
 }
 
 nav {
