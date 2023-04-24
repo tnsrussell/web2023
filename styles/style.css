@@ -37,7 +37,6 @@ header a {
 }
 
 header img {
-    height: 80px;
     margin-right: 80px;
     margin-top: 10px;
     height: 50%;
@@ -49,8 +48,8 @@ padding: .5rem 0 .5rem 0;
 
 nav ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 2fr));
-    justify-items:end;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    justify-items:center;
     list-style-type: none;
 }
 
