@@ -13,15 +13,12 @@ body{
 header {
     background-color: #00B4C5;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     text-transform: uppercase;
-    height: 250px;
+    height: 150px;
     display: grid; 
     grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
     justify-items: left;
-       
-    
-    
 }
 
 header h1 {
@@ -33,7 +30,6 @@ header h1 {
 header a {
     height: 85px;
     text-align: right;
-    margin-top: 10px;
 }
 
 header img {
