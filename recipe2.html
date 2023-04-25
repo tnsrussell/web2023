@@ -60,9 +60,10 @@
 
     <nav>
       <ul>
-        <li><a href="recipe1.html">recipe 1</a></li>
-        <li><a href="recipe3.html">recipe 3</a></li>
-        <li><a href="index.html">Home Page</a></li>
+        <li><a href="./index.html">Millionaire Pie</a></li>
+        <li><a href="./recipe2.html">Three Rivers Bean Dip</a></li>
+        <li><a href="./recipe3.html">Tomato Soup</a></li>
+        <li><a href="./index.html">Home Page</a></li>
       </ul>
     </nav>
 
@@ -71,9 +72,16 @@
     <!-- the <div> wraps around all elements below except for the <footer> element -->
     <div class="wrapper">
     
-    <section id="ingredients">
-    
-    <!-- list only -->
+        <!-- this is the first of two <section> elements on this page -->
+      <section id="primary">
+
+        <!-- this is the first of two <article> elements on this page. Each
+        <article> element is in its own <section>. In practice, this might be
+        redundant; that is, you can either use an <article> or a <section>
+        element and may not need both. -->
+        <article id="main_article">
+        
+        <!-- list only -->
     <h2>Ingredients:</h2>
     
     <ul>
@@ -90,19 +98,7 @@
       <li>sour cream, as topping</li>
       <li>shredded sharp cheddar cheese, as topping</li>
     </ul>
-
-    </section>
-
-      <!-- this is the first of two <section> elements on this page -->
-      <section id="primary">
-
-        <!-- this is the first of two <article> elements on this page. Each
-        <article> element is in its own <section>. In practice, this might be
-        redundant; that is, you can either use an <article> or a <section>
-        element and may not need both. -->
-        <article id="main_article">
-        
-    
+            
         <!-- it's good practice to include a <h2> for each <section> or <article> -->
         <h2>Instructions:</h2>
 
