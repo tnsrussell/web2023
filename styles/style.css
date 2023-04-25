@@ -116,13 +116,13 @@ nav ul li:nth-child(2) a:hover {
 
 figure {
     padding: 2rem 1rem 0 1rem;
-    justify-items:right;
+    justify-items:center;
 }
 
 figure img {
     max-width: 300px;
     border: 30px;
-    justify-items: right;
+    justify-items: center;
 }
 
 figcaption{
