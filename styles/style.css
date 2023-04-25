@@ -97,7 +97,7 @@ nav ul li:nth-child(2) a:hover {
 
  #primary {
     display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+    grid-template-columns: repeat(auto-fi, minmax(240px, 1fr)); 
     justify-items: center;
     padding: 0 1rem 0 1rem;
 }
@@ -116,13 +116,13 @@ nav ul li:nth-child(2) a:hover {
 
 figure {
     padding: 2rem 1rem 0 1rem;
-    justify-items:center;
+    justify-items:right;
 }
 
 figure img {
     max-width: 300px;
     border: 30px;
-    justify-items: center;
+    justify-items: right;
 }
 
 figcaption{
