@@ -43,7 +43,7 @@ padding: .5rem 0 .5rem 0;
 
 nav ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
     justify-items:center;
     list-style-type: none;
 }
@@ -97,7 +97,7 @@ nav ul li:nth-child(2) a:hover {
 
  #primary {
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr)); 
     justify-items: center;
     padding: 0 1rem 0 1rem;
 }
