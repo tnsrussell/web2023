@@ -96,9 +96,7 @@ nav ul li:nth-child(2) a:hover {
  }
 
 #ingredients {
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(240px, 2fr)); 
-    justify-items:center;
+    justify-items:left;
     background-color: #07737F;
     color: white;
     padding: 0 1rem 0 1rem;
