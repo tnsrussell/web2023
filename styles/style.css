@@ -95,22 +95,9 @@ nav ul li:nth-child(2) a:hover {
     color: white;
  }
 
-#ingredients {
-    justify-items:left;
-    background-color: #07737F;
-    color: white;
-    padding: 0 1rem 0 1rem;
-}
-
-#ingredients h2 {
-    background-color: #129CA8;
-    color: black;
-    text-align:center;
-}
-
-#primary {
+ #primary {
     display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+    grid-template-columns: repeat(auto-fi, minmax(240px, 1fr)); 
     justify-items: center;
     padding: 0 1rem 0 1rem;
 }
